@@ -16,6 +16,8 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
+    npm i
+    ng build
     npm install
     npm audit fix
     npm run build
